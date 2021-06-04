@@ -17,12 +17,8 @@ body {
   padding: 32px;
 }
 
-h1 {
+.title {
   grid-column: 2 / 4;
-}
-
-p {
-  margin-top: 2px;
 }
 
 .container {
@@ -65,4 +61,8 @@ p {
 
 .traditionl-float-headline {
   margin-top: 8px;
+}
+
+.paragraph {
+  margin-top: 2px;
 }
