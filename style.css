@@ -22,7 +22,12 @@ h1 {
 }
 
 img {
+  background-color: #dcdcdc;
   border-radius: 4px;
+}
+
+p {
+  margin-top: 2px;
 }
 
 .container {
@@ -56,4 +61,8 @@ img {
 .traditional-float:not(:last-of-type) {
   float: left;
   margin-right: 16px;
+}
+
+.traditionl-float-headline {
+  margin-top: 8px;
 }
