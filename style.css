@@ -21,11 +21,6 @@ h1 {
   grid-column: 2 / 4;
 }
 
-img {
-  background-color: #dcdcdc;
-  border-radius: 4px;
-}
-
 p {
   margin-top: 2px;
 }
@@ -48,17 +43,22 @@ p {
   grid-column: 2 / 4;
 }
 
-.float-left {
+.image {
+  background-color: #dcdcdc;
+  border-radius: 4px;
+}
+
+.image.-float-left {
   float: left;
   margin-right: 16px;
 }
 
-.float-right {
+.image.-float-right {
   float: right;
   margin-left: 16px;
 }
 
-.traditional-float:not(:last-of-type) {
+.image.-traditional-float:not(:last-of-type) {
   float: left;
   margin-right: 16px;
 }
